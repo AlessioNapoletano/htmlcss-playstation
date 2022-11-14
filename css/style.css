@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    border: none;
+    color: white;
+    padding: .5rem .8rem;
+    border-radius: 25px;
+}
+
+.icon{
+    width: 35px;
+}
+/*
+                                                        HEADER
+*/
+
+/*Section Header Brand*/
+section#header_brand{
+    height: 2.5rem;
+}
+
+
+
+/*
+                                                        MAIN
+*/
+
+section#jumbotron{
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 43rem;
+}
