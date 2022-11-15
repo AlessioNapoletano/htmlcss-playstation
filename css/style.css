@@ -47,6 +47,8 @@ div.box>img{
 
 
 
+
+
 /*
                                                         HEADER
 */
@@ -68,8 +70,18 @@ section#jumbotron{
     background-size: cover;
     padding-top: 31rem;
 }
-
-section#jumbotron img{
-    width: 50%;
-}
 /* End Section jumbotron*/
+
+
+/* Start Section jumbotron*/
+section#game_preview{
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 10rem;
+}
+
+section#game_preview div.my_wrapper{
+    margin-top: -8rem;
+}
