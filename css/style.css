@@ -91,7 +91,9 @@ section#playstation_5 button:hover{
 END SECTION PLAYSTATION 5
 */
 
-/* Start Section jumbotron*/
+/* 
+START SECTION Game Preview
+*/
 section#game_preview{
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
     background-size: cover;
@@ -104,6 +106,19 @@ section#game_preview div.my_wrapper{
     margin-top: -8rem;
 }
 
+/*Background color for button*/
+section#game_preview button{
+    background-color: #cd3d0f;
+}
+
+/*Background color in hover, for button*/
+section#game_preview button:hover{
+    background-color: #791c25;
+}
+
+/* 
+END SECTION Game Preview
+*/
 
 section#new_release div.box{
     height: 17rem;
