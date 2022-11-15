@@ -45,8 +45,14 @@ section#header_brand{
 
 
 section#jumbotron{
-    background-color: burlywood;
-    height: 43rem;
+    background-image: url('../img/jumbo-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 26rem;
+}
+
+section#jumbotron img{
+    width: 50%;
 }
 
 
