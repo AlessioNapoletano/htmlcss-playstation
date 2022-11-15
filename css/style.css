@@ -25,6 +25,10 @@ div.box>img{
     color: #107ad1;
 }
 
+.color-primary-grey{
+    color: #979797;
+}
+
 .bg-secondary-blue{
     background-color: #2d64e6;
 }
@@ -58,6 +62,7 @@ section#header_brand{
 /* 
 START SECTION JUMBOTRON
 */
+
 /*formatting Background image */
 section#jumbotron{
     background-image: url('../img/jumbo-bg.png');
@@ -78,6 +83,7 @@ section#jumbotron button:hover{
 }
 /* 
 END SECTION JUMBOTRON
+-------------------------------------------------------------------------------------------------------------------
 */
 
 /* 
@@ -89,6 +95,7 @@ section#playstation_5 button:hover{
 
 /* 
 END SECTION PLAYSTATION 5
+-------------------------------------------------------------------------------------------------------------------
 */
 
 /* 
@@ -118,30 +125,69 @@ section#game_preview button:hover{
 
 /* 
 END SECTION Game Preview
+-------------------------------------------------------------------------------------------------------------------
 */
 
+/* 
+START SECTION New Release
+*/
 section#new_release div.box{
     height: 17rem;
 }
 
+/* 
+END SECTION New Release
+-------------------------------------------------------------------------------------------------------------------
+*/
+
+/* 
+START SECTION PlayStation 4
+*/
 
 section#playstation_4 div.box{
     height: 18rem;
 }
 
+section#playstation_4 button:hover{
+    background-color: #1c3f91;
+}
 
+/* 
+END SECTION PlayStation 4
+-------------------------------------------------------------------------------------------------------------------
+*/
+
+/* 
+START SECTION PlayStation Plus
+*/
+/*Background color for section, playstation plus*/
 section#playstation_plus{
     background-color: #bebcbb;
 }
 
+/*background color for button*/
 section#playstation_plus button{
     background-color: #d9dadc;
 }
 
+/*background color for button in hover*/
+section#playstation_plus button:hover{
+    background-color: #97989b;
+}
+
+/*Width for logo playStation plus*/
 section#playstation_plus img{
     width: 300px;
 }
 
+/* 
+END SECTION PlayStation plus
+-------------------------------------------------------------------------------------------------------------------
+*/
+
+/* 
+START SECTION PlayStation Now
+*/
 
 section#playstation_now{
     background-color: #161c3b;
@@ -151,13 +197,36 @@ section#playstation_now img{
     width: 300px;
 }
 
+section#playstation_now button{
+    background-color: white;
+}
 
+section#playstation_now button:hover{
+    background-color: rgb(207, 205, 205);
+}
+
+/* 
+END SECTION PlayStation Now
+-------------------------------------------------------------------------------------------------------------------
+*/
+
+/* 
+START SECTION PlayStation Now
+*/
 
 section#social div.box{
     width: 200px;
     height: 160px;
 }
 
+section#social div.box:hover{
+    opacity: .4;
+    cursor: pointer;
+}
+/* 
+END SECTION Social
+-------------------------------------------------------------------------------------------------------------------
+*/
 
 /*
                                                         FOOTER
@@ -179,4 +248,9 @@ footer ul li{
 
 footer div img.sony_logo{
     width: 200px;
+}
+
+footer ul a{
+    color: white;
+    text-decoration: none;
 }
