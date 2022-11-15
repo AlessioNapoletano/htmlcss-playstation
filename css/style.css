@@ -90,3 +90,60 @@ section#game_preview div.my_wrapper{
 section#new_release div.box{
     height: 17rem;
 }
+
+
+section#playstation_4 div.box{
+    height: 18rem;
+}
+
+
+section#playstation_plus{
+    background-color: #bebcbb;
+}
+
+section#playstation_plus button{
+    background-color: #d9dadc;
+}
+
+section#playstation_plus img{
+    width: 300px;
+}
+
+
+section#playstation_now{
+    background-color: #161c3b;
+}
+
+section#playstation_now img{
+    width: 300px;
+}
+
+
+
+section#social div.box{
+    width: 200px;
+    height: 160px;
+}
+
+
+/*
+                                                        FOOTER
+*/
+
+
+footer{
+    background-color: #00439c;
+}
+
+footer p img{
+    width: 20px;
+}
+
+
+footer ul li{
+    list-style: none;
+}
+
+footer div img.sony_logo{
+    width: 200px;
+}
