@@ -20,6 +20,7 @@ div.box>img{
     height: 100%;
 }
 
+/*Generic class*/
 .color-primary-blue{
     color: #107ad1;
 }
@@ -39,6 +40,12 @@ div.box>img{
 .my_border_dotter{
     border: 1px dotted black;
 }
+
+.my_border_bottom{
+    border-bottom: 3px solid #2d64e6;
+}
+
+
 
 /*
                                                         HEADER
