@@ -62,7 +62,10 @@ section#header_brand{
                                                         MAIN
 */
 
-/* Start Section jumbotron*/
+/* 
+START SECTION JUMBOTRON
+*/
+/*formatting Background image */
 section#jumbotron{
     background-image: url('../img/jumbo-bg.png');
     background-position: center;
@@ -71,7 +74,18 @@ section#jumbotron{
     padding-top: 31rem;
     margin-top: 95px;
 }
-/* End Section jumbotron*/
+
+/*Background color for button*/
+section#jumbotron button{
+    background-color: #cd3d0f;
+}
+/*Background color in hover, for button*/
+section#jumbotron button:hover{
+    background-color: #791c25;
+}
+/* 
+END SECTION JUMBOTRON
+*/
 
 
 /* Start Section jumbotron*/
