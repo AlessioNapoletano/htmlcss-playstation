@@ -93,6 +93,10 @@ section#playstation_5 button:hover{
     background-color: #1f4aad;
 }
 
+section#playstation_5 div.box{
+    height: auto;
+}
+
 /* 
 END SECTION PLAYSTATION 5
 -------------------------------------------------------------------------------------------------------------------
@@ -215,8 +219,8 @@ START SECTION PlayStation Now
 */
 
 section#social div.box{
-    width: 200px;
-    height: 160px;
+    width: 150px;
+    height: auto;
 }
 
 section#social div.box:hover{
@@ -253,4 +257,8 @@ footer div img.sony_logo{
 footer ul a{
     color: white;
     text-decoration: none;
+}
+
+footer ul a:hover{
+    color: rgb(182, 182, 61);
 }
