@@ -29,16 +29,9 @@ div.box>img{
     background-color: #2d64e6;
 }
 
+/*For lens in nav bar*/
 .icon{
     width: 35px;
-}
-
-.my_border{
-    border: 1px solid white;
-}
-
-.my_border_dotter{
-    border: 1px dotted black;
 }
 
 .my_border_bottom{
@@ -87,6 +80,16 @@ section#jumbotron button:hover{
 END SECTION JUMBOTRON
 */
 
+/* 
+START SECTION PLAYSTATION 5
+*/
+section#playstation_5 button:hover{
+    background-color: #1f4aad;
+}
+
+/* 
+END SECTION PLAYSTATION 5
+*/
 
 /* Start Section jumbotron*/
 section#game_preview{
