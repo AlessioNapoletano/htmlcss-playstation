@@ -9,6 +9,24 @@ button{
     border-radius: 25px;
 }
 
+div.box{
+    width: 100%;
+    height: 10rem;
+    overflow: hidden;
+}
+
+div.box>img{
+    width: 100%;
+    height: 100%;
+}
+
+.color-primary-blue{
+    color: #107ad1;
+}
+
+.bg-secondary-blue{
+    background-color: #2d64e6;
+}
 
 .icon{
     width: 35px;
@@ -22,11 +40,6 @@ button{
     border: 1px dotted black;
 }
 
-
-
-div.my_wrapper{
-    padding-top: 20rem;
-}
 /*
                                                         HEADER
 */
@@ -36,28 +49,20 @@ section#header_brand{
     height: 2.5rem;
 }
 
-
-
-
 /*
                                                         MAIN
 */
 
-
+/* Start Section jumbotron*/
 section#jumbotron{
     background-image: url('../img/jumbo-bg.png');
     background-position: center;
     background-repeat: no-repeat;
-    padding-top: 26rem;
+    background-size: cover;
+    padding-top: 31rem;
 }
 
 section#jumbotron img{
     width: 50%;
 }
-
-
-div.box{
-    width: 100%;
-    height: 10rem;
-    border: 1px solid black;
-}
+/* End Section jumbotron*/
