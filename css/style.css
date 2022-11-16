@@ -9,15 +9,28 @@ button{
     border-radius: 25px;
 }
 
+button:hover{
+    opacity: .7;
+}
+
 div.box{
     width: 100%;
     height: auto;
     overflow: hidden;
 }
 
+div.box:hover{
+    opacity: .6;
+    cursor: pointer;
+}
+
 div.box>img{
     width: 100%;
     height: 100%;
+}
+
+ul li{
+    list-style-type: none;
 }
 
 /*Generic class*/
@@ -31,6 +44,10 @@ div.box>img{
 
 .bg-secondary-blue{
     background-color: #2d64e6;
+}
+
+.bg-buy{
+    background-color: #cd3d0f; 
 }
 
 /*For lens in nav bar*/
@@ -50,7 +67,6 @@ div.box>img{
                                                         HEADER
 */
 
-/*Section Header Brand*/
 section#header_brand{
     height: 2.5rem;
 }
@@ -59,8 +75,8 @@ section#header_brand{
                                                         MAIN
 */
 
-/* 
-START SECTION JUMBOTRON
+
+/*                                      Start Section Jumbotron
 */
 
 /*formatting Background image */
@@ -73,37 +89,12 @@ section#jumbotron{
     margin-top: 95px;
 }
 
-/*Background color for button*/
-section#jumbotron button{
-    background-color: #cd3d0f;
-}
-/*Background color in hover, for button*/
-section#jumbotron button:hover{
-    background-color: #791c25;
-}
-/* 
-END SECTION JUMBOTRON
--------------------------------------------------------------------------------------------------------------------
-*/
 
-/* 
-START SECTION PLAYSTATION 5
-*/
-section#playstation_5 button:hover{
-    background-color: #1f4aad;
-}
+/* END SECTION JUMBOTRON
+--------------------------------------------------------------------------------------------------------------*/
 
-section#playstation_5 div.box{
-    height: auto;
-}
 
-/* 
-END SECTION PLAYSTATION 5
--------------------------------------------------------------------------------------------------------------------
-*/
-
-/* 
-START SECTION Game Preview
+/*                                      Start Section Game Preview
 */
 section#game_preview{
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
@@ -117,52 +108,13 @@ section#game_preview div.my_wrapper{
     margin-top: -8rem;
 }
 
-/*Background color for button*/
-section#game_preview button{
-    background-color: #cd3d0f;
-}
 
-/*Background color in hover, for button*/
-section#game_preview button:hover{
-    background-color: #791c25;
-}
+/* END SECTION Game Preview
+-----------------------------------------------------------------------------------------------------------------*/
 
-/* 
-END SECTION Game Preview
--------------------------------------------------------------------------------------------------------------------
-*/
 
-/* 
-START SECTION New Release
-*/
-section#new_release div.box{
-    height: auto;
-}
-
-/* 
-END SECTION New Release
--------------------------------------------------------------------------------------------------------------------
-*/
-
-/* 
-START SECTION PlayStation 4
-*/
-
-section#playstation_4 div.box{
-    height: auto;
-}
-
-section#playstation_4 button:hover{
-    background-color: #1c3f91;
-}
-
-/* 
-END SECTION PlayStation 4
--------------------------------------------------------------------------------------------------------------------
-*/
-
-/* 
-START SECTION PlayStation Plus
+ 
+/*                                      Start Section PlayStation Plus
 */
 /*Background color for section, playstation plus*/
 section#playstation_plus{
@@ -174,23 +126,17 @@ section#playstation_plus button{
     background-color: #d9dadc;
 }
 
-/*background color for button in hover*/
-section#playstation_plus button:hover{
-    background-color: #97989b;
-}
-
 /*Width for logo playStation plus*/
 section#playstation_plus img{
     width: 300px;
 }
 
-/* 
-END SECTION PlayStation plus
+ 
+/* END SECTION PlayStation plus
 -------------------------------------------------------------------------------------------------------------------
 */
 
-/* 
-START SECTION PlayStation Now
+/*                                      Start Section PlayStation Now
 */
 
 section#playstation_now{
@@ -201,34 +147,8 @@ section#playstation_now img{
     width: 300px;
 }
 
-section#playstation_now button{
-    background-color: white;
-}
 
-section#playstation_now button:hover{
-    background-color: rgb(207, 205, 205);
-}
-
-/* 
-END SECTION PlayStation Now
--------------------------------------------------------------------------------------------------------------------
-*/
-
-/* 
-START SECTION PlayStation Now
-*/
-
-section#social div.box{
-    width: 100%;
-    height: auto;
-}
-
-section#social div.box:hover{
-    opacity: .4;
-    cursor: pointer;
-}
-/* 
-END SECTION Social
+/* END SECTION PlayStation Now
 -------------------------------------------------------------------------------------------------------------------
 */
 
@@ -245,10 +165,6 @@ footer p img{
     width: 20px;
 }
 
-
-footer ul li{
-    list-style: none;
-}
 
 footer div img.sony_logo{
     width: 200px;
