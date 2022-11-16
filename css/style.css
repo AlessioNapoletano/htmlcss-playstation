@@ -53,16 +53,33 @@ ul li{
 /*For lens in nav bar*/
 .icon{
     width: 35px;
+    cursor: pointer;
+}
+
+.icon:hover{
+    opacity: .6;
 }
 
 .my_border_bottom{
     border-bottom: 3px solid #2d64e6;
 }
 
+/*Remove default icon at the dropdown*/
+.dropdown-toggle::after {
+    border: none!important;
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f107"!important; /* the desired FontAwesome icon */
+    vertical-align: 0; /* to center vertically */
+    opacity: .5;
+}
 
-
-
-
+/* For border card in section card_game, non funziona
+.border_card{
+    border: 3px solid blue;
+    padding: 2px;
+    border-radius: 20px;
+}
+*/
 /*
                                                         HEADER
 */
@@ -132,6 +149,18 @@ section#playstation_plus img{
 }
 
  
+/* END SECTION PlayStation plus
+-------------------------------------------------------------------------------------------------------------------
+*/
+
+/*                                      Start Section PlayStation Plus
+*/
+/*Hover on image*/
+section#news_playstation_store div.col-12:hover img{
+    opacity: .7;
+    cursor: pointer;
+}
+
 /* END SECTION PlayStation plus
 -------------------------------------------------------------------------------------------------------------------
 */
